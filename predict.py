@@ -10,14 +10,16 @@ from Sastrawi.StopWordRemover.StopWordRemoverFactory import StopWordRemoverFacto
 # set maximum length and tokenizer
 MAX_LEN = 22
 tokenizer = BertTokenizer.from_pretrained('bert-base-multilingual-uncased')
-# tokenizer = BertTokenizer.from_pretrained('indobenchmark/indobert-lite-base-p1')
 
 # stopword
 factory = StopWordRemoverFactory()
 stopword = factory.create_stop_word_remover()
 
-# load model on first launch
-filename = "model/model.h5"
+# Change to model directory
+# filename = "/content/clickbaitIndo-addons/model/model_mbert.h5"
+# test
+filename = "/content/drive/MyDrive/clikcbait_project/Model_mbert.h5"
+
 model = keras.models.load_model(filename)
 
 def removeStopWords(sentence):
