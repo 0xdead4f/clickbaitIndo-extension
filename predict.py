@@ -18,7 +18,7 @@ stopword = factory.create_stop_word_remover()
 # Change to model directory
 # filename = "/content/clickbaitIndo-addons/model/model_mbert.h5"
 # test
-filename = "/content/drive/MyDrive/clikcbait_project/Model_mbert.h5"
+filename = "/content/drive/MyDrive/clickbait_project/Model_mbert.h5"
 
 model = keras.models.load_model(filename)
 
