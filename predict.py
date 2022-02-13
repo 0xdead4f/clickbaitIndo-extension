@@ -4,7 +4,6 @@ import pandas as pd
 
 from transformers import BertTokenizer, TFBertModel
 from tensorflow import keras
-#from Sastrawi.Stemmer.StemmerFactory import StemmerFactory
 from Sastrawi.StopWordRemover.StopWordRemoverFactory import StopWordRemoverFactory
 
 # set maximum length and tokenizer
@@ -15,9 +14,7 @@ tokenizer = BertTokenizer.from_pretrained('bert-base-multilingual-uncased')
 factory = StopWordRemoverFactory()
 stopword = factory.create_stop_word_remover()
 
-# Change to model directory
-# filename = "/content/clickbaitIndo-addons/model/model_mbert.h5"
-# test
+# Change to your model directory
 filename = "/content/drive/MyDrive/clickbait_project/Model_mbert.h5"
 
 model = keras.models.load_model(filename)
