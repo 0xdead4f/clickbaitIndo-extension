@@ -9,6 +9,6 @@ Due a lack of internet speed to upload the model to huggingface :/ , you can dow
 ---
 ## Credits 
 
-Training and project reference are from journal (https://github.com/ruzcmc/ClickbaitIndo-textclassifier)
+Training script, API and project reference (https://github.com/ruzcmc/ClickbaitIndo-textclassifier)
 
 Indonesian Clickbait dataset (William, A., & Sari, Y. (2020). CLICK-ID: A novel dataset for Indonesian clickbait headlines. Data in brief, 32, 106231.)
