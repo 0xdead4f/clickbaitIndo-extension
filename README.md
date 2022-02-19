@@ -4,7 +4,7 @@ Clickbait indo is a research project about implementation Multilingual BERT in c
 
 Due a lack of internet speed to upload the model to huggingface :/ , you can download the model from my google drive :
 
-[s.id/clickbaitIndo-extension-model](s.id/clickbaitIndo-extension-model)
+[s.id/clickbaitIndo-extension-model](http://s.id/clickbaitIndo-extension-model)
 
 ---
 ## Credits 
